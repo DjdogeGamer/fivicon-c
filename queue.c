@@ -53,30 +53,53 @@ int removerTopo(struct Fila *fila)
 int getTopo(struct Fila *fila)
 {
     if (isEmpty(fila))
-        return INT_MIN;
+        return 0;
     return fila->vetor[fila->topo];
 }
 
 int getFim(struct Fila *fila)
 {
     if (isEmpty(fila))
-        return INT_MIN;
+        return 0;
     return fila->vetor[fila->fim];
 }
 
 int main()
 {
     struct Fila *fila = criarFila(10);
+    int option, ficha = 0;
 
-    enfileirar(fila, 10);
-    enfileirar(fila, 20);
-    enfileirar(fila, 30);
-    enfileirar(fila, 40);
+    do
+    {
 
-    printf("Ficha %d removida da fila\n\n", removerTopo(fila));
+        if (getFim(fila) == 0)
+        {
+            printf("A fila esta vazia\n");
+        }
+        else
+        {
+            printf("A ficha atual e %d\n", getTopo(fila));
+            printf("A ficha mais recente e %d\n", getFim(fila));
+        }
+        printf("1 - Enfileirar\n2 - Chamar o proximo\n");
 
-    printf("A ficha atual e %d\n", getTopo(fila));
-    printf("A ficha mais recente e %d\n", getFim(fila));
+        scanf("%d", &option);
+
+        switch (option)
+        {
+        case 1:
+            ficha++;
+            enfileirar(fila, ficha);
+            break;
+
+        case 2:
+            printf("Ficha %d removida da fila\n\n", removerTopo(fila));
+            break;
+
+        default:
+            break;
+        }
+    } while (option != 0);
 
     return 0;
 }
