@@ -93,7 +93,10 @@ int main()
             break;
 
         case 2:
-            printf("Ficha %d removida da fila\n\n", removerTopo(fila));
+            if (getTopo(fila) != 0)
+            {
+                printf("Ficha %d removida da fila\n\n", removerTopo(fila));
+            }
             break;
 
         default:
