@@ -49,7 +49,3 @@ ___
 ___
 #### LINK DO SITE
 > O prototipo pode ser acessado no Figma por este link: https://www.figma.com/proto/B1cyI1GQxiHwSr5AtIpu9z/Prot%C3%B3tipo-FiViCon?node-id=534%3A2202&scaling=contain&page-id=0%3A1&starting-point-node-id=534%3A2202&show-proto-sidebar=1
-
-___
-#### SNAPS
->add images
