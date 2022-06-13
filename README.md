@@ -27,7 +27,7 @@ ___
 		- E-mail: ghco@cesar.school 
 		- Github: DjdogeGamer
 	 - Renan Pontes
-    - E-mail: rpc@cesar.school 
+    		- E-mail: rpc@cesar.school 
 		- Github: 
     
 ### INFORMAÇÕES DA EQUIPE de Design:
@@ -41,7 +41,7 @@ ___
 	  - Luiza Santos
 		 - E-mail: lsb4@cesar.school 
 	  - Patrícia Ponciano
-     - Email: pcpf@cesar.school
+     		 - Email: pcpf@cesar.school
 ___
 #### STATUS DO PROJETO
 > O projeto está em sua fase de alta prototipação. Onde diversas funcionalidades foram implementadas e testadas com os usuários.
